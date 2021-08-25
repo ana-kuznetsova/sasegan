@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # DOWNLOAD THE DATASET
-#mkdir -p data
+mkdir -p data
 pushd data
 if [ ! -d clean_testset_wav_16k ]; then
     # Clean utterances
