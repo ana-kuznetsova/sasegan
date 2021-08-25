@@ -26,7 +26,7 @@ fi
 
 if [ ! -d clean_trainset_wav_16k ]; then
     # Clean utterances
-    if [ ! -f clean_testset_wav.zip ]; then
+    if [ ! -f clean_trainset_wav.zip ]; then
         echo 'DOWNLOADING CLEAN DATASET...'
         wget http://datashare.is.ed.ac.uk/bitstream/handle/10283/1942/clean_trainset_wav.zip
     fi
